@@ -8,6 +8,8 @@ https://github.com/benjaminmisiuk/knightswhosaydb/
 3) run in terminal: pixi run start
 
 Alternative for windows users:
-the start_notebook.bat
+
+- use the start_notebook.bat
+
 This will use the pixi.exe in the pixi_exe folder
 
