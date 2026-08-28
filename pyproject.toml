@@ -13,8 +13,12 @@ platforms = ["win-64", "linux-64", "osx-arm64"]
 start = "pixi run jupyter lab knightsdemo.ipynb"
 
 [tool.pixi.dependencies]
+git = "*"
 python = "3.14.*"
 jupyterlab = ">=4.6.3,<5"
-knightswhosaydb = ">=0.1.0.devp,<0.2"
+#knightswhosaydb = ">=0.1.0.devp,<0.2"
 themachinethatgoesping = ">=0.35.0.dev,<0.36"
 rasterio = ">=1.5.0,<2"
+
+[tool.pixi.pypi-dependencies]
+knightswhosaydb = { git = "https://github.com/peter-urban/knightswhosaydb", rev = "ea8ffff" }
