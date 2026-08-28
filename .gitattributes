@@ -1,0 +1,6 @@
+# Auto detect text files and perform LF normalization
+* text=auto
+# SCM syntax highlighting & preventing 3-way merges
+pixi.lock merge=binary linguist-language=YAML linguist-generated=true -diff
+# Do not touch crlf for windows files
+*.bat text eol=crlf
