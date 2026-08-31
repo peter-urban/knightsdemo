@@ -3,7 +3,7 @@ authors = [{name = "Peter Urban", email = "peter.urban@ugent.be"}]
 dependencies = []
 name = "knightsdemo"
 requires-python = ">= 3.11"
-version = "0.1.0"
+version = "0.1.1"
 
 [tool.pixi.workspace]
 channels = ["conda-forge", "themachinethatgoesping"]
@@ -17,8 +17,8 @@ git = "*"
 python = "3.14.*"
 jupyterlab = ">=4.6.3,<5"
 #knightswhosaydb = ">=0.1.0.devp,<0.2"
-themachinethatgoesping = ">=0.35.0.dev,<0.36"
+themachinethatgoesping = ">=0.35.0,<0.36"
 rasterio = ">=1.5.0,<2"
 
 [tool.pixi.pypi-dependencies]
-knightswhosaydb = { git = "https://github.com/peter-urban/knightswhosaydb", rev = "ea8ffff" }
+knightswhosaydb = { git = "https://github.com/benjaminmisiuk/knightswhosaydb", rev = "28d847f" }

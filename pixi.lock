@@ -376,9 +376,9 @@ environments:
       - conda: https://conda.anaconda.org/conda-forge/noarch/websocket-client-1.9.0-pyhd8ed1ab_0.conda
       - conda: https://conda.anaconda.org/conda-forge/noarch/widgetsnbextension-4.0.16-pyhd8ed1ab_0.conda
       - conda: https://conda.anaconda.org/conda-forge/noarch/zipp-4.1.0-pyhcf101f3_0.conda
-      - conda: https://conda.anaconda.org/themachinethatgoesping/linux-64/themachinethatgoesping-0.35.0.dev-py314h5e7d334_0.conda
+      - conda: https://conda.anaconda.org/themachinethatgoesping/linux-64/themachinethatgoesping-0.35.0-py314h5e7d334_0.conda
       - conda: https://conda.anaconda.org/themachinethatgoesping/noarch/pytimeparse2-1.7.1-pyh4616a5c_0.conda
-      - pypi: git+https://github.com/peter-urban/knightswhosaydb?rev=ea8ffff#ea8ffff89e446738482e3fb4682b08acd608a77c
+      - pypi: git+https://github.com/benjaminmisiuk/knightswhosaydb?rev=28d847f#28d847f95e8571a15f9f03d5d72ac5d075d9e3c2
       osx-arm64:
       - conda: https://conda.anaconda.org/conda-forge/noarch/_python_abi3_support-1.0-hd8ed1ab_3.conda
       - conda: https://conda.anaconda.org/conda-forge/noarch/affine-3.0.0-pyhd8ed1ab_0.conda
@@ -697,8 +697,8 @@ environments:
       - conda: https://conda.anaconda.org/conda-forge/osx-arm64/zlib-ng-2.3.3-h31dac16_1.conda
       - conda: https://conda.anaconda.org/conda-forge/osx-arm64/zstd-1.5.7-hf451053_7.conda
       - conda: https://conda.anaconda.org/themachinethatgoesping/noarch/pytimeparse2-1.7.1-pyh4616a5c_0.conda
-      - conda: https://conda.anaconda.org/themachinethatgoesping/osx-arm64/themachinethatgoesping-0.35.0.dev-py314ha8acc50_0.conda
-      - pypi: git+https://github.com/peter-urban/knightswhosaydb?rev=ea8ffff#ea8ffff89e446738482e3fb4682b08acd608a77c
+      - conda: https://conda.anaconda.org/themachinethatgoesping/osx-arm64/themachinethatgoesping-0.35.0-py314ha8acc50_0.conda
+      - pypi: git+https://github.com/benjaminmisiuk/knightswhosaydb?rev=28d847f#28d847f95e8571a15f9f03d5d72ac5d075d9e3c2
       win-64:
       - conda: https://conda.anaconda.org/conda-forge/noarch/_python_abi3_support-1.0-hd8ed1ab_3.conda
       - conda: https://conda.anaconda.org/conda-forge/noarch/affine-3.0.0-pyhd8ed1ab_0.conda
@@ -1005,8 +1005,8 @@ environments:
       - conda: https://conda.anaconda.org/conda-forge/win-64/zlib-ng-2.3.3-h0261ad2_1.conda
       - conda: https://conda.anaconda.org/conda-forge/win-64/zstd-1.5.7-h534d264_7.conda
       - conda: https://conda.anaconda.org/themachinethatgoesping/noarch/pytimeparse2-1.7.1-pyh4616a5c_0.conda
-      - conda: https://conda.anaconda.org/themachinethatgoesping/win-64/themachinethatgoesping-0.35.0.dev-py314h7cafbbb_0.conda
-      - pypi: git+https://github.com/peter-urban/knightswhosaydb?rev=ea8ffff#ea8ffff89e446738482e3fb4682b08acd608a77c
+      - conda: https://conda.anaconda.org/themachinethatgoesping/win-64/themachinethatgoesping-0.35.0-py314h7cafbbb_0.conda
+      - pypi: git+https://github.com/benjaminmisiuk/knightswhosaydb?rev=28d847f#28d847f95e8571a15f9f03d5d72ac5d075d9e3c2
 packages:
 - conda: https://conda.anaconda.org/conda-forge/linux-64/_openmp_mutex-4.5-20_gnu.conda
   build_number: 20
@@ -13157,9 +13157,9 @@ packages:
     - zstd >=1.5.7,<1.6.0a0
   size: 387535
   timestamp: 1786599623274
-- conda: https://conda.anaconda.org/themachinethatgoesping/linux-64/themachinethatgoesping-0.35.0.dev-py314h5e7d334_0.conda
-  sha256: 515daba15f36f00c171656cbb673e4828cabd25917905267c4c76c8b03269dbd
-  md5: 2bc20843615101615bce48bdd3360154
+- conda: https://conda.anaconda.org/themachinethatgoesping/linux-64/themachinethatgoesping-0.35.0-py314h5e7d334_0.conda
+  sha256: 53cad2e8eb89627ab450a0ccecdfc1c97e96aa0df1e7d1f451ece331371cb872
+  md5: b7c929f9ca8f006021d97a180d82dc85
   depends:
   - python
   - numba
@@ -13183,8 +13183,8 @@ packages:
   - python_abi 3.14.* *_cp314
   - numpy >=1.23,<3
   license: MPL-2.0
-  size: 16309365
-  timestamp: 1787903532448
+  size: 16311810
+  timestamp: 1788189662911
 - conda: https://conda.anaconda.org/themachinethatgoesping/noarch/pytimeparse2-1.7.1-pyh4616a5c_0.conda
   sha256: d4b0bb5da8e8f66678835332c50b32f14ad676476a1c131756067b0f6cda127a
   md5: 774d6732d3bdce23fef249baaf4ae1f9
@@ -13194,9 +13194,9 @@ packages:
   license: MIT
   size: 13947
   timestamp: 1749134219660
-- conda: https://conda.anaconda.org/themachinethatgoesping/osx-arm64/themachinethatgoesping-0.35.0.dev-py314ha8acc50_0.conda
-  sha256: 3590619ac5d0ff450a2d950bab8de124e1f695a8971bbd8509567c05374264a5
-  md5: 80ed92f7b32a9feee5ab238a6fc74709
+- conda: https://conda.anaconda.org/themachinethatgoesping/osx-arm64/themachinethatgoesping-0.35.0-py314ha8acc50_0.conda
+  sha256: 026fcb42334164c9bb0df675b320ada3dc233220ef065fb4c897666bc34c2e81
+  md5: 5c2f8eeca59b1398cc87e8a2198ad9b4
   depends:
   - python
   - numba
@@ -13222,11 +13222,11 @@ packages:
   - numpy >=1.23,<3
   - python_abi 3.14.* *_cp314
   license: MPL-2.0
-  size: 13290433
-  timestamp: 1787903535331
-- conda: https://conda.anaconda.org/themachinethatgoesping/win-64/themachinethatgoesping-0.35.0.dev-py314h7cafbbb_0.conda
-  sha256: 457dbe3b02e2951c05298522f412df0401ca0a5295e49bca8b4a02e364efc389
-  md5: 428e5c856a165023e6c88d785115c993
+  size: 13289174
+  timestamp: 1788189821619
+- conda: https://conda.anaconda.org/themachinethatgoesping/win-64/themachinethatgoesping-0.35.0-py314h7cafbbb_0.conda
+  sha256: ad4dbeb8dfd87b7ccbbccfa7cadbee108340804c1b728523f4a924f2ad4f47ff
+  md5: b5c162d662e84b1773334a94702ec225
   depends:
   - python
   - numba
@@ -13252,15 +13252,19 @@ packages:
   - vc >=14.3,<15
   - vc14_runtime >=14.44.35208
   - ucrt >=10.0.20348.0
+  - llvm-openmp >=23.1.0
   - numpy >=1.23,<3
   - python_abi 3.14.* *_cp314
   license: MPL-2.0
-  size: 11822089
-  timestamp: 1787903594371
-- pypi: git+https://github.com/peter-urban/knightswhosaydb?rev=ea8ffff#ea8ffff89e446738482e3fb4682b08acd608a77c
+  size: 11821426
+  timestamp: 1788189326861
+- pypi: git+https://github.com/benjaminmisiuk/knightswhosaydb?rev=28d847f#28d847f95e8571a15f9f03d5d72ac5d075d9e3c2
   name: knightswhosaydb
   version: 0.1.0
   requires_dist:
+  - numpy
+  - pandas
+  - scipy
   - rasterio ; extra == 'grid'
   - themachinethatgoesping ; extra == 'kmall'
   - themachinethatgoesping ; extra == 'all'
