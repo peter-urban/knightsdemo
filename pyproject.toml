@@ -25,4 +25,4 @@ jupyterlab = ">=4.6.3,<5"
 #rasterio = ">=1.5.0,<2"
 
 [tool.pixi.pypi-dependencies]
-knightswhosaydb = { git = "https://github.com/benjaminmisiuk/knightswhosaydb", rev = "247587a" }
+knightswhosaydb = { git = "https://github.com/benjaminmisiuk/knightswhosaydb", rev = "816b99b" }
