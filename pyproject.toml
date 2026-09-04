@@ -15,14 +15,19 @@ platforms = [
 
 [tool.pixi.tasks]
 start = "pixi run jupyter lab knightsdemo.ipynb"
+clean_notebooks = "python misc/clean_notebooks.py"
 
 [tool.pixi.dependencies]
 git = "*"
 python = "3.14.*"
 jupyterlab = ">=4.6.3,<5"
-#knightswhosaydb = ">=0.1.0.devp,<0.2"
+ipympl = ">=0.10.0,<0.11"
+pyproj = ">=3.7.2,<4"
+ipykernel = "7.2.*"
+themachinethatgoesping = "==0.35.1"
+knightswhosaydb = ">=0.1.1.dev1,<0.2"
 #themachinethatgoesping = ">=0.35.1,<0.36"
 #rasterio = ">=1.5.0,<2"
 
-[tool.pixi.pypi-dependencies]
-knightswhosaydb = { git = "https://github.com/benjaminmisiuk/knightswhosaydb", rev = "816b99b" }
+# [tool.pixi.pypi-dependencies]
+# knightswhosaydb = { git = "https://github.com/benjaminmisiuk/knightswhosaydb", rev = "816b99b" }
