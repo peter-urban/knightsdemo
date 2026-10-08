@@ -3,7 +3,7 @@ authors = [{name = "Peter Urban", email = "peter.urban@ugent.be"}]
 dependencies = []
 name = "knightsdemo"
 requires-python = ">= 3.12"
-version = "0.1.7"
+version = "0.2.dev2"
 
 [tool.pixi.workspace]
 channels = ["conda-forge", "themachinethatgoesping"]
