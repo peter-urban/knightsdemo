@@ -6,7 +6,7 @@ requires-python = ">= 3.12"
 version = "0.2.dev2"
 
 [tool.pixi.workspace]
-channels = ["conda-forge", "themachinethatgoesping/label/dev", "themachinethatgoesping"]
+channels = ["conda-forge", "themachinethatgoesping"]
 platforms = ["linux-64", "osx-arm64", "win-64"]
 
 [tool.pixi.tasks]
@@ -19,8 +19,9 @@ python = "3.14.*"
 #knightswhosaydb = ">=0.1.4.dev1,<0.2"
 jupyterlab = ">=4.6.4,<5"
 ipympl = ">=0.10.0,<0.11"
-knightswhosaydb = ">=0.2.dev2,<0.3"
+knightswhosaydb = ">=0.2.dev7,<0.3"
 pytest = ">=9.1.1,<10"
+#themachinethatgoesping = ">=0.37.0.dev5,<0.38"
 #themachinethatgoesping = ">=0.35.2.dev5,<0.36"
 #knightswhosaydb = ">=0.1.4.dev1,<0.2"
 # jupyterlab = ">=4.6.4,<5"
